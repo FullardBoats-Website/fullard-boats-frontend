@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --text-color: #f2f2f2;
+    --background-color: #191a1c;
+    --card-color: #0b0c0d;
+    --place-color: #2c2d2e;
+   
+  }
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    box-sizing: border-box;
+}
+
+h2 {
+    display: flex;
+    margin-left: 1.1em; 
+}
+
+.contact-container {
+    margin: auto;
+    margin-top: 10em;
+    width: 30em;
+    height: auto;
+    background-color:  var(--card-color);
+    border-radius: 12px;
+    padding: 1em;
+    
+}
+
+form {
+    width: 100%;
+    padding: 1em; 
+    
+}
+
+label {
+    padding: 0.66em; 
+}
+
+input {
+    display: block;
+    outline: none;
+    border: none;
+    padding: 0.4em 0.4em 0.4em 0em;
+    margin: 1em 1em 1em 0.9em;
+    width: 85.55%;
+    background-color:  var(--card-color);
+    color: var(--text-color);
+    border-bottom: solid var(--background-color);
+    border-bottom-width: 0.2em;
+}
+
+  
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px var(--card-color) inset;
+    -webkit-text-fill-color: var(--text-color);
+}
+
+textarea {
+    font-family: 'IBM Plex Sans', sans-serif;
+    height: 200px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 1em 1em 1em 0.9em;
+    resize: vertical;
+    width: 85.55% !important;
+    background-color:  var(--card-color);
+    color: var(--text-color); 
+    border-bottom: solid var(--background-color);
+    border-radius: 0px;
+    padding: 0.4em 0.4em 0.4em 0em;
+    border-bottom-width: 0.2em;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: var(--place-color);  
+}
+
+input:hover, textarea:hover {
+    border-bottom: solid var(--place-color);
+    border-bottom-width: 0.2em;
+}
+
+
+.submit-btn {
+    display: flex;
+    width: auto;
+    background-color: var(--background-color);
+    border: none;
+    cursor: pointer;
+    color: var(--text-color);
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 0.8em;
+    justify-content: center;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    border: none;
+    background-color: #6be2bb;
+    color: var(--background-color);
+}
+
+.success-message {
+    color: #6be2bb;
+}
