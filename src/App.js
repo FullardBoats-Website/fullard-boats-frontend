@@ -1,7 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import ContactForm from './Components/ContactForm';
+import ContactFormCard from './Components/ContactFormCard';
+import ContactDetailsCard from './Components/ContactDetailsCard';
 import HomePage from './Components/HomePage';
+
+function ContactUs() {
+  return (
+    <>
+      <ContactFormCard />
+      <ContactDetailsCard /> 
+     
+    </>
+  );
+}
 
 function App() {
   return (
@@ -14,15 +25,14 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact-us">Contact</Link>
             </li>
-            
           </ul>
         </nav>
 
         {/* Define routes using the Routes component */}
         <Routes>
-          <Route path="/contact" element={<ContactForm />} />
+          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/" element={<HomePage />} />
         </Routes>
       </div>

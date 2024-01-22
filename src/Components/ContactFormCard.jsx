@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../Styles/ContactForm.css';
 
-export default function ContactForm() {
+export default function ContactFormCard() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -54,57 +54,49 @@ export default function ContactForm() {
   };
 
   return (
-    <div>
-    <div className='contact-container'>
-      {successMessage ? (
-        <h2 className="success-message">{successMessage}</h2>
-      ) : errorMessage ? (
-        <h2 className="error-message">{errorMessage}</h2>
-      ) : (
-        <h2>Contact Us</h2>
-      )}
-      <form onSubmit={handleSubmit}>
-          <label htmlFor="name">Full name*</label>
-          <input
-            type="text"
-            placeholder="Your name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
+    <div className='card-container'>
+      <div className='card-contents'>
+          {successMessage ? (
+            <h2 className="success-message">{successMessage}</h2>
+          ) : errorMessage ? (
+            <h2 className="error-message">{errorMessage}</h2>
+          ) : (
+            <h2 className="contact-us-heading">CONTACT US</h2>
+          )}
+          <form onSubmit={handleSubmit}>
+          
 
-          <label htmlFor="email">Email*</label>
-          <input
-            type="email"
-            placeholder="Your email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
+            <label htmlFor="email">Email*</label>
+            <input
+              type="email"
+              placeholder="Your email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
 
-          <label htmlFor="phone">Phone</label>
-          <input
-            type="tel"
-            placeholder="Your contact number"
-            name="phone"
-            value={formData.phone}
-            onChange={handleChange}
-          />
+            <label htmlFor="phone">Phone</label>
+            <input
+              type="tel"
+              placeholder="Your contact number"
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+            />
 
-          <label htmlFor="subject">Subject* </label>
-          <textarea
-            placeholder="Your message"
-            name="subject"
-            value={formData.subject}
-            onChange={handleChange}
-            required
-          ></textarea>
+            <label htmlFor="subject">Subject* </label>
+            <textarea
+              placeholder="Your message"
+              name="subject"
+              value={formData.subject}
+              onChange={handleChange}
+              required
+            ></textarea>
 
-          <input className="submit-btn" type="submit" value="Submit" />
-        </form>
-      </div>
+            <input className="submit-btn" type="submit" value="Submit" />
+          </form>
+        </div>
     </div>
   );
 }
