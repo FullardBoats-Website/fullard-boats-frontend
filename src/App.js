@@ -1,23 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import ContactFormCard from './Components/ContactFormCard';
-import ContactDetailsCard from './Components/ContactDetailsCard';
+import ContactPage from './Components/ContactPage';
 import HomePage from './Components/HomePage';
-
-function ContactUs() {
-  return (
-    <>
-      <ContactFormCard />
-      <ContactDetailsCard /> 
-     
-    </>
-  );
-}
+import './Styles/styles.css';
 
 function App() {
   return (
     <Router>
-      <div>
+      <header>
         {/* Navigation links */}
         <nav>
           <ul>
@@ -32,10 +22,10 @@ function App() {
 
         {/* Define routes using the Routes component */}
         <Routes>
-          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/" element={<HomePage />} />
         </Routes>
-      </div>
+      </header>
     </Router>
   );
 }

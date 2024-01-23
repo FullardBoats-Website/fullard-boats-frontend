@@ -13,30 +13,61 @@ body {
     /* background-color: var(--background-color); */
     color: var(--text-color);
     box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    height: 400px;
+    background-color: #343C42;
+    padding: 1em;
+    margin: 0;
+}
+
+/* CONTACT PAGE */
+
+.contact-page-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Add this line to stack items vertically */
+}
+  
+  .contact-page-heading h2 {
+    margin-bottom: 0; /* Adjust the spacing as needed */
+}
+
+.here-to-help {
+    margin-top: 0em
+}
+
+/* CONTACT US CARD */
+
+.contact-us-heading, .success-message, .error-message {
+    margin-left: 1.1em; 
+    
 }
 
 .contact-us-heading {
-    display: flex;
-    margin-left: 1.1em; 
-    color: #77E7C0;
+    color: #6be2bb;
 }
 
-.card-container{
-    display: inline-flex;
-    margin: 1em;
+.success-message {
+    color: #6be2bb;
 }
+
+
+.card-container {
+    display: flex;
+    flex-direction: column; 
+    margin: 5em 1em 1em 1em; 
+  }
 
 .card-contents {
-    /* margin: auto;
-    margin-top: 10em; */
-    display: inline-block;
     width: 30em;
-    height: auto;
-    background-color:  var(--card-color);
+    background-color: var(--card-color);
     border-radius: 12px;
     padding: 1em;
-    
-}
+  }
 
 form {
     width: 100%;
@@ -114,7 +145,70 @@ input:hover, textarea:hover {
     color: var(--background-color);
 }
 
-.success-message {
-    color: #6be2bb;
+
+
+
+/* OUR DETAILS CARD */
+
+.our-details-heading {
+    display: flex;
+    margin-left: 1.1em; 
+    color: #EF86C9;
+}
+
+.our-deatils-body {
+    width: 100%;
+    padding: 1em;   
+}
+
+.icons {
+    margin-right: 1em;
+    margin-left: 0.66em;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hours-container {
+    display: inline-block;
+}
+
+.hours-heading{
+    margin-left: 0.8em;
+    margin-bottom: -1em;
+}
+
+.hours-text, 
+.days-text, 
+.public-hols-text {
+    padding: 1em;  
+
+}
+
+.hours-text {
+    margin-bottom: -3em; 
+}
+
+.days-text {
+    margin-bottom: -1em;  
+}
+
+.public-hols-text {
+    font-size: 0.8em;
+}
+
+.serivce-locations-container {
+    float: right;
+    margin-right: 1em ;
+}
+
+.test {
+    margin-right: 1.65em 
+}
+
+.serivce-locations-heading {
+    margin-left: 1.3em
 }
 
