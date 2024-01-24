@@ -24,7 +24,7 @@ export default function ContactDetailsCard() {
 
           <div className='serivce-locations-container'>
             <h3 className='serivce-locations-heading'>Service Locations</h3>
-            <ul className='test'>
+            <ul className='serivce-locations-text'>
               <li >Metung, VIC</li>
               <li >Bairnsdale, VIC</li>
               <li >Paynesville, VIC</li>

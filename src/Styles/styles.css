@@ -23,20 +23,38 @@ header {
     margin: 0;
 }
 
+/* NAVIGATION MENU */
+
+nav {
+    margin: 1em 2em 0em 0em;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+nav a {
+    text-decoration: none; /* Remove underline for normal state */
+    color: var(--text-color);
+    margin-right: 2em;
+}
+
+
+
 /* CONTACT PAGE */
 
-.contact-page-heading {
+.page-heading {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; /* Add this line to stack items vertically */
+    margin-top: 6em;
 }
   
-  .contact-page-heading h2 {
+.page-heading h2 {
     margin-bottom: 0; /* Adjust the spacing as needed */
 }
 
-.here-to-help {
+.line2 {
     margin-top: 0em
 }
 
@@ -204,7 +222,7 @@ input:hover, textarea:hover {
     margin-right: 1em ;
 }
 
-.test {
+.serivce-locations-text {
     margin-right: 1.65em 
 }
 

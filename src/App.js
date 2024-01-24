@@ -7,19 +7,12 @@ import './Styles/styles.css';
 function App() {
   return (
     <Router>
-      <header>
+      <header >
         {/* Navigation links */}
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/contact-us">Contact</Link>
-            </li>
-          </ul>
+        <nav> 
+          <Link to="/">Home</Link>
+          <Link to="/contact-us">Contact</Link>
         </nav>
-
         {/* Define routes using the Routes component */}
         <Routes>
           <Route path="/contact-us" element={<ContactPage />} />
