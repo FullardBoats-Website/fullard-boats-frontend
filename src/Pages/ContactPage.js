@@ -1,6 +1,6 @@
 import React from 'react';
-import ContactFormCard from './ContactFormCard';
-import ContactDetailsCard from './ContactDetailsCard';
+import ContactFormCard from '../Components/ContactFormCard';
+import ContactDetailsCard from '../Components/ContactDetailsCard';
 
 const ContactPage = () => {
   return (

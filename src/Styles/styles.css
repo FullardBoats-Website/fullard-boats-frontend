@@ -19,7 +19,7 @@ body {
 header {
     height: 400px;
     background-color: #343C42;
-    padding: 1em;
+    /* padding: 1em; */
     margin: 0;
 }
 
@@ -30,15 +30,40 @@ nav {
     float: right;
     font-size: 1.5em;
     font-weight: 500;
+    margin-top: 2em;
+    position: absolute; /* Changed to absolute positioning */
+    right: 0; /* Align to the right */
+    top: 0; /* Align to the top */
 }
 
 nav a {
     text-decoration: none; /* Remove underline for normal state */
     color: var(--text-color);
     margin-right: 2em;
+    margin-top: 2em;
 }
 
+/* h2 {
+    margin: 0;
+} */
 
+/* HOME PAGE */
+
+.logobg {
+    width: 500px;
+    margin: 5em;
+    margin-bottom: -6em;
+}
+
+.tag-container {
+    font-size: 6em;
+    font-weight: 400;
+    margin-left: 1em;
+}
+
+.tagline {
+    margin-bottom: -1em;
+}
 
 /* CONTACT PAGE */
 
@@ -47,11 +72,13 @@ nav a {
     justify-content: center;
     align-items: center;
     flex-direction: column; /* Add this line to stack items vertically */
-    margin-top: 6em;
+    padding-top: 10em;
+    
+    
 }
   
 .page-heading h2 {
-    margin-bottom: 0; /* Adjust the spacing as needed */
+    margin-bottom: 0; 
 }
 
 .line2 {
