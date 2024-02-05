@@ -15,7 +15,6 @@ const ContactPage = () => {
       <ContactDetailsCard />
     </div>
     </div>
-    
   );
 };
 

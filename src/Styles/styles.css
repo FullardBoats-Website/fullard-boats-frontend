@@ -257,3 +257,60 @@ input:hover, textarea:hover {
     margin-left: 1.3em
 }
 
+
+/* OUR SERVICES CARD */
+
+.our-services-heading {
+    display: flex;
+    margin-left: 1.1em; 
+    color: #90CAF3;
+}
+
+.our-services-blurb {
+    margin-right: 3em;
+    margin-bottom: 2.5em;
+}
+
+.our-services-list {
+    margin-left: -1.3em;
+}
+
+.service-card-contents {
+    width: 25em;
+    background-color: var(--card-color);
+    border-radius: 12px;
+    padding: 1em;
+  }
+
+  .our-services-body {
+    width: 100%;
+    padding: 0.5em 1.8em 1.8em 1.8em;   
+}
+
+.faq-blurb {
+    margin-right: 3em;
+    margin-bottom: 2.5em;
+}
+
+.faq-body {
+    width: 100%;
+    padding: 0.5em 1.8em 1.8em 1.8em;   
+}
+
+.faq-card-contents {
+    width: 60em;
+    background-color: var(--card-color);
+    border-radius: 12px;
+    padding: 1em;
+  }
+
+  .faq-heading {
+    display: flex;
+    margin-left: 1.1em; 
+    color: #77E7C0;
+}
+
+.faq-questions {
+    margin-top: 0em;
+    margin-right: 4em;
+}
