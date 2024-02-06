@@ -10,9 +10,9 @@ export default function ContactDetailsCard() {
           OUR DETAILS
         </h2>
         <div className='our-deatils-body'>
-          <h2 className='contact-text'> <FontAwesomeIcon className='icons' icon={faPhone} /> 0434 819 553</h2>
-          <h2 className='contact-text'> <FontAwesomeIcon className='icons' icon={faEnvelope} /> fullardboats@gmail.com</h2>
-          <h2 className='contact-text'> <FontAwesomeIcon className='icons' icon={faFacebook} /> facebook.com/FullardBoats</h2>
+          <h2 > <FontAwesomeIcon className='icons' icon={faPhone} /> 0434 819 553</h2>
+          <h2 > <FontAwesomeIcon className='icons' icon={faEnvelope} /> fullardboats@gmail.com</h2>
+          <h2 > <FontAwesomeIcon className='icons' icon={faFacebook} /> facebook.com/FullardBoats</h2>
           <br></br>
           <div className='hours-container'>
             <h3 className='hours-heading'>Opening Hours</h3>
@@ -29,9 +29,7 @@ export default function ContactDetailsCard() {
               <li >Paynesville, VIC</li>
               <li >Lakes Entrance, VIC</li>
             </ul>
-
           </div>
-          
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
-import ContactFormCard from '../Components/OurServicesCard';
-import ContactDetailsCard from '../Components/FaqCard';
+import OurServicesCard from '../Components/OurServicesCard';
+import FaqCard from '../Components/FaqCard';
 
 const AboutUs = () => {
   return (
@@ -11,8 +11,8 @@ const AboutUs = () => {
     </div>
     
     <div className='contact-container'>
-    <ContactFormCard />
-    <ContactDetailsCard />
+    <OurServicesCard />
+    <FaqCard />
   </div>
   </div>
   );
