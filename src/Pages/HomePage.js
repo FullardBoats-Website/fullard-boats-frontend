@@ -33,7 +33,7 @@ const HomePage = () => {
             <p className='hours-text'>8:30am - 4pm</p>
             <p className='days-text'>Monday-Friday</p>
             <em className='public-hols-text'>*Except public holidays</em>
-            <h3 className='serivce-locations-heading'>Service Locations</h3>
+            <h3 className='home-serivce-locations-heading'>Service Locations</h3>
             <ul className='serivce-locations-text'>
               <li >Metung, VIC</li>
               <li >Bairnsdale, VIC</li>
