@@ -1,9 +1,12 @@
 
+import brush from '../assets/brush.png';
+
 export default function OurServicesCard() {
 
   return (
     <div className='card-container'>
       <div className='service-card-contents'>
+      <img className='brushbg' src={brush} alt="Brush Background" />
         <h2 className="our-services-heading">
           OUR SERVICES
         </h2>

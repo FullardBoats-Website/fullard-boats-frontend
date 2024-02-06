@@ -1,9 +1,11 @@
+import water from '../assets/water.png';
 
 export default function OurServicesCard() {
 
   return (
     <div className='card-container'>
       <div className='faq-card-contents'>
+      <img className='waterbg' src={water} alt="Water Background" />
         <h2 className="faq-heading">
           FAQ
         </h2>

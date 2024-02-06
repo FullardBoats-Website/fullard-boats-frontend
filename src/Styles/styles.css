@@ -264,15 +264,18 @@ input:hover, textarea:hover {
     display: flex;
     margin-left: 1.1em; 
     color: #90CAF3;
+    position: relative;
+    z-index: 10 
 }
 
 .our-services-blurb {
     margin-right: 3em;
-    margin-bottom: 2.5em;
+    margin-bottom: 4em;
 }
 
 .our-services-list {
     margin-left: -1.3em;
+    margin-bottom: 0em;
 }
 
 .service-card-contents {
@@ -280,21 +283,28 @@ input:hover, textarea:hover {
     background-color: var(--card-color);
     border-radius: 12px;
     padding: 1em;
+    
   }
 
   .our-services-body {
     width: 100%;
-    padding: 0.5em 1.8em 1.8em 1.8em;   
+    padding: 0.5em 1.8em 1.8em 1.8em;  
+    position: relative;
+    z-index: 10 
 }
 
 .faq-blurb {
     margin-right: 3em;
-    margin-bottom: 2.5em;
+    margin-bottom: 4em;
+    position: relative;
+    z-index: 10 
 }
 
 .faq-body {
     width: 100%;
     padding: 0.5em 1.8em 1.8em 1.8em;   
+    position: relative;
+    z-index: 10 
 }
 
 .faq-card-contents {
@@ -302,15 +312,37 @@ input:hover, textarea:hover {
     background-color: var(--card-color);
     border-radius: 12px;
     padding: 1em;
+    
+
   }
 
   .faq-heading {
     display: flex;
     margin-left: 1.1em; 
     color: #77E7C0;
+    position: relative;
+    z-index: 10 
+    
 }
 
 .faq-questions {
     margin-top: 0em;
     margin-right: 4em;
 }
+
+.brushbg {
+    position: absolute;
+    margin: -1em;
+    border-radius: 12px;
+    width: 432px;
+  }
+
+  .waterbg {
+    position: absolute;
+    margin: -1em;
+    
+    border-radius: 12px;
+    width: 990px;
+  }
+  
+ 
