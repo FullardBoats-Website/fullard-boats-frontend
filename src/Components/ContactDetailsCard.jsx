@@ -4,7 +4,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 export default function ContactDetailsCard() {
 
   return (
-    <div className='card-container'>
+    <div className='card-container' id='contact-details-card'>
       <div className='card-contents'>
         <h2 className="our-details-heading">
           OUR DETAILS
@@ -12,7 +12,11 @@ export default function ContactDetailsCard() {
         <div className='our-deatils-body'>
           <h2 > <FontAwesomeIcon className='icons' icon={faPhone} /> 0434 819 553</h2>
           <h2 > <FontAwesomeIcon className='icons' icon={faEnvelope} /> fullardboats@gmail.com</h2>
-          <h2 > <FontAwesomeIcon className='icons' icon={faFacebook} /> facebook.com/FullardBoats</h2>
+          <a id='facebook-link' href="https://www.facebook.com/FullardBoats" target="_blank" rel="noopener noreferrer">
+          <h2>
+            <FontAwesomeIcon className='icons' icon={faFacebook} /> facebook.com/FullardBoats
+          </h2>
+        </a>
           <br></br>
           <div className='hours-container'>
             <h3 className='hours-heading'>Opening Hours</h3>

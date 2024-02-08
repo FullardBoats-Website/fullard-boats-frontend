@@ -4,7 +4,7 @@ import brush from '../assets/brush.png';
 export default function OurServicesCard() {
 
   return (
-    <div className='card-container'>
+    <div className='card-container' id='our-services-card'>
       <div className='service-card-contents'>
       <img className='brushbg' src={brush} alt="Brush Background" />
         <h2 className="our-services-heading">

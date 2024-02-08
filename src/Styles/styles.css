@@ -47,7 +47,7 @@ nav a {
 .logo {
     width: 266px;
     position: absolute;
-    margin: 5.1em 0em -6em 7.1em;
+    margin: 2.5em 0em -6em 7.1em;
     /* margin: 3em 0em -6em 7.25em; */
 }
 /* color: var(--text-color) !important; */
@@ -58,8 +58,9 @@ nav a {
 /* HOME PAGE */
 
 .logobg {
-    width: 300px;
-    margin: 1em 0em -2em 6.1em;
+    
+    width: 550px;
+    margin: 35em 0em -2em 6.1em;
     /* margin: 5em 0em -6em 6.1em; */
 }
 
@@ -67,6 +68,8 @@ nav a {
     font-size: 6em;
     font-weight: 400;
     margin-left: 1em;
+    position: absolute;
+    /* margin-top: -1em; */
 }
 
 .tagline {
@@ -94,6 +97,61 @@ nav a {
 .home-serivce-locations-heading {
     margin-left: 0.9em
 }
+
+#facebook-link, .icons {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  
+  #modern {
+    opacity: 0; /* Initially hide each tagline */
+    animation: fadeIn 200ms ease-in 300ms forwards; /* Fade-in animation for each tagline */
+  }
+
+  #traditional{
+    opacity: 0; /* Initially hide each tagline */
+    animation: fadeIn 200ms ease-in 600ms forwards; /* Fade-in animation for each tagline */
+  }
+
+  #boat-building {
+    opacity: 0; /* Initially hide each tagline */
+    animation: fadeIn 200ms ease-in 900ms forwards; /* Fade-in animation for each tagline */
+  }
+  
+  .logobg {
+    opacity: 0; /* Initially hide the logo background */
+    animation: fadeIn 200ms ease-in 1200ms forwards; /* Fade-in animation for the logo background after a delay of 400ms */
+  }
+  
+  .homepg-contact-details h2,
+  .home-serivce-locations-container,
+  nav a {
+    opacity: 0; /* Initially hide the contact details and service locations */
+    animation: fadeIn 400ms ease-in 1500ms forwards; /* Fade-in animation for the contact details and service locations after a delay of 800ms */
+  }
+
+  #contact-form-card,
+  #our-services-card {
+    opacity: 0; /* Initially hide each tagline */
+    animation: fadeIn 400ms ease-in 200ms forwards; /* Fade-in animation for each tagline */
+  }
+
+  #contact-details-card,
+  #faq-card {
+    opacity: 0; /* Initially hide each tagline */
+    animation: fadeIn 400ms ease-in 600ms forwards; /* Fade-in animation for each tagline */
+  }
 
 /* CONTACT PAGE */
 
@@ -221,8 +279,6 @@ input:hover, textarea:hover {
 }
 
 
-
-
 /* OUR DETAILS CARD */
 
 .our-details-heading {
@@ -239,6 +295,7 @@ input:hover, textarea:hover {
 .icons {
     margin-right: 1em;
     margin-left: 0.66em;
+    
 }
 
 .contact-container {

@@ -16,16 +16,22 @@ const HomePage = () => {
 
   return (
     <div className="home-page" style={backgroundImageStyle}>
-      <img className='logobg' src={logoBg} alt="Logo Background" />
+      
       <div className='tag-container'>
-        <p className='tagline'>Modern,</p>
-        <p className='tagline'>Traditional,</p>
-        <p className='tagline'>Boat Building.</p>
+        <p className='tagline' id='modern'>Modern,</p>
+        <p className='tagline' id='traditional'>Traditional,</p>
+        <p className='tagline' id='boat-building'>Boat Building.</p>
+        
       </div>
+      <img className='logobg' src={logoBg} alt="Logo Background" />
       <div className='homepg-contact-details'>
         <h2 > <FontAwesomeIcon className='icons' icon={faPhone} /> 0434 819 553</h2>
         <h2 > <FontAwesomeIcon className='icons' icon={faEnvelope} /> fullardboats@gmail.com</h2>
-        <h2 > <FontAwesomeIcon className='icons' icon={faFacebook} /> facebook.com/FullardBoats</h2>
+        <a id='facebook-link' href="https://www.facebook.com/FullardBoats" target="_blank" rel="noopener noreferrer">
+          <h2>
+            <FontAwesomeIcon className='icons' icon={faFacebook} /> facebook.com/FullardBoats
+          </h2>
+        </a>
       </div>
 
       <div className='home-serivce-locations-container'>
