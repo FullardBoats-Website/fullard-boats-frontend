@@ -111,9 +111,7 @@ nav a {
       opacity: 1;
     }
   }
-  
 
-  
   #modern {
     opacity: 0; /* Initially hide each tagline */
     animation: fadeIn 200ms ease-in 300ms forwards; /* Fade-in animation for each tagline */
@@ -131,14 +129,14 @@ nav a {
   
   .logobg {
     opacity: 0; /* Initially hide the logo background */
-    animation: fadeIn 200ms ease-in 1200ms forwards; /* Fade-in animation for the logo background after a delay of 400ms */
+    animation: fadeIn 200ms ease-in 1200ms forwards; /* Fade-in animation for the logo background after a delay */
   }
   
   .homepg-contact-details h2,
   .home-serivce-locations-container,
   nav a {
     opacity: 0; /* Initially hide the contact details and service locations */
-    animation: fadeIn 400ms ease-in 1500ms forwards; /* Fade-in animation for the contact details and service locations after a delay of 800ms */
+    animation: fadeIn 400ms ease-in 1500ms forwards; /* Fade-in animation for the contact details and service locations after a delay*/
   }
 
   #contact-form-card,
