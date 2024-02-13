@@ -2,7 +2,7 @@ import React from 'react';
 import OurServicesCard from '../Components/OurServicesCard';
 import FaqCard from '../Components/FaqCard';
 
-const AboutUs = () => {
+const OurServicesPage = () => {
   return (
     <div>
     <div className='page-heading'>
@@ -18,4 +18,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default OurServicesPage;

@@ -48,12 +48,7 @@ nav a {
     width: 266px;
     position: absolute;
     margin: 2.5em 0em -6em 7.1em;
-    /* margin: 3em 0em -6em 7.25em; */
 }
-/* color: var(--text-color) !important; */
-/* h2 {
-    margin: 0;
-} */
 
 /* HOME PAGE */
 
@@ -61,7 +56,6 @@ nav a {
     
     width: 550px;
     margin: 35em 0em -2em 6.1em;
-    /* margin: 5em 0em -6em 6.1em; */
 }
 
 .tag-container {
@@ -140,16 +134,83 @@ nav a {
   }
 
   #contact-form-card,
-  #our-services-card {
+  #our-services-card,
+  #contact-details-card,
+  #faq-card {
     opacity: 0; /* Initially hide each tagline */
     animation: fadeIn 400ms ease-in 200ms forwards; /* Fade-in animation for each tagline */
   }
 
-  #contact-details-card,
+  /* #contact-details-card,
   #faq-card {
-    opacity: 0; /* Initially hide each tagline */
-    animation: fadeIn 400ms ease-in 600ms forwards; /* Fade-in animation for each tagline */
+    opacity: 0; 
+    animation: fadeIn 400ms ease-in 600ms forwards; 
+  } */
+
+
+/* ABOUT US PAGE */
+
+.about-us-blurb-container {
+    display: flex;
+    width: 60em;
+    margin: auto;
+ }
+
+ .about-us-blurb {
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+.our-team-heading {
+    position: absolute;
+    display: flex;
+    margin: 2em 38em 0em 0em;
+    color: #2d2d2d;
+}
+
+/* OUR TEAM CARDS*/
+
+.about-us-contents {
+    width: 25em;
+    height: 47.2em;
+    background-color: var(--card-color);
+    border-radius: 12px;
+    padding: 1em;
+    margin-top: 4em;
   }
+
+.headshot {
+    margin: -1em;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 432px;
+    margin-bottom: 1em;
+  }
+
+  .about-us-blurb-card {
+    
+    margin: 0em 3em 4em -1em;
+}
+
+
+.will-heading, .kelly-heading, .aiden-heading {
+    display: flex;
+    position: relative;
+    z-index: 10; 
+    margin: 0em 0em 0.3em 0.5em;
+}
+
+.will-heading {
+    color: #90CAF3;
+}
+
+.kelly-heading {
+    color: #77E7C0;
+}
+
+.aiden-heading {
+    color: #EF86C9;
+}
 
 /* CONTACT PAGE */
 
