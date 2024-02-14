@@ -11,29 +11,28 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
-
   const [menuOpen, setMenuOpen] = useState(false);
+  const [animationDirection, setAnimationDirection] = useState('down');
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+    setAnimationDirection(menuOpen ? 'up' : 'down');
   };
 
   return (
     <Router>
-      <header >
-        {/* Render the image only if it's not the home page */}
+      <header>
         <Logo />
-        <nav>   
+        <nav>
           <div className='nav-items'>
-          <Link to="/about-us">About Us</Link>
-          <Link to="/our-services">Our Services</Link>
-          <Link to="/contact-us">Contact Us</Link>
-          </div>      
+            <Link to="/about-us">About Us</Link>
+            <Link to="/our-services">Our Services</Link>
+            <Link to="/contact-us">Contact Us</Link>
+          </div>
           <FontAwesomeIcon className='nav-mobile-icon' icon={faBars} onClick={toggleMenu} />
-          {menuOpen && <FullMenu onClose={toggleMenu} />}
+          {menuOpen && <FullMenu onClose={toggleMenu} animationDirection={animationDirection} />}
         </nav>
-        
-        {/* Define routes using the Routes component */}
+
         <Routes>
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/" element={<HomePage />} />
@@ -45,9 +44,9 @@ function App() {
   );
 }
 
-function FullMenu({ onClose }) {
+function FullMenu({ onClose, animationDirection }) {
   return (
-    <div className="full-menu-overlay" onClick={onClose}>
+    <div className={"full-menu-overlay open " + animationDirection} onClick={onClose}>
       <div className="full-menu-content">
         <Link to="/about-us" onClick={onClose}>About Us</Link>
         <Link to="/our-services" onClick={onClose}>Our Services</Link>
@@ -57,15 +56,13 @@ function FullMenu({ onClose }) {
   );
 }
 
-// Component to conditionally render the logo
 function Logo() {
   const location = useLocation();
 
-  // Render the image only if it's not the home page
   if (location.pathname !== '/') {
     return (
       <Link to="/">
-         <img className='logo-mobile' src={logoMobile} alt="Fullard Boats Logo" />
+        <img className='logo-mobile' src={logoMobile} alt="Fullard Boats Logo" />
         <img className='logo' src={logo} alt="Fullard Boats Logo" />
       </Link>
     );
