@@ -6,6 +6,7 @@ import AboutUs from './Pages/AboutUsPage';
 import OurSerivces from './Pages/OurServicesPage';
 import './Styles/styles.css';
 import logo from './assets/logo.svg';
+import logoMobile from './assets/logo-mobile.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -64,7 +65,8 @@ function Logo() {
   if (location.pathname !== '/') {
     return (
       <Link to="/">
-        <img className='logo' src={logo} alt="Logo Background" />
+         <img className='logo-mobile' src={logoMobile} alt="Fullard Boats Logo" />
+        <img className='logo' src={logo} alt="Fullard Boats Logo" />
       </Link>
     );
   }
