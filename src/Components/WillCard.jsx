@@ -5,8 +5,9 @@ export default function WillCard() {
 
   return (
     <div className='card-container' id='our-services-card'>
+      <img className='headshot' src={Will} alt="Will photo" />
       <div className='about-us-contents'>
-      <img className='headshot' src={Will} alt="Brush Background" />
+      
         <h2 className="will-heading">
           Will Fullard
         </h2>

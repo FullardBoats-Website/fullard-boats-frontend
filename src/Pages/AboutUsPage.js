@@ -18,13 +18,13 @@ const AboutUs = () => {
     </div>
 
     
-    
-    <div className='contact-container'>
     <h1 className='our-team-heading'>Our Team</h1>
-    <WillCard />
-    <KellyCard />
-    <AidenCard />
-  </div>
+    <div className='about-us-container'>
+      
+      <WillCard />
+      <KellyCard />
+      <AidenCard />
+    </div>
   </div>
   );
 };

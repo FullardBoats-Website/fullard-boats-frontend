@@ -5,8 +5,9 @@ export default function KellyCard() {
 
   return (
     <div className='card-container' id='our-services-card'>
+      <img className='headshot' src={Kelly} alt="Kelly photo" />
       <div className='about-us-contents'>
-      <img className='headshot' src={Kelly} alt="Brush Background" />
+      
         <h2 className="kelly-heading">
           Kelly Fullard
         </h2>

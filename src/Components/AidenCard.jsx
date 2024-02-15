@@ -5,8 +5,9 @@ export default function AidenCard() {
 
   return (
     <div className='card-container' id='our-services-card'>
+       <img className='headshot' src={Aiden} alt="Aiden photo" />
       <div className='about-us-contents'>
-      <img className='headshot' src={Aiden} alt="Brush Background" />
+     
         <h2 className="aiden-heading">
           Aiden Kell
         </h2>
