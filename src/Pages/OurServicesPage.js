@@ -10,7 +10,7 @@ const OurServicesPage = () => {
       <h2 className='line2'>Where Our Services Exceed Your Aspirations.</h2>
     </div>
     
-    <div className='contact-container'>
+    <div className='our-services-container'>
     <OurServicesCard />
     <FaqCard />
   </div>
