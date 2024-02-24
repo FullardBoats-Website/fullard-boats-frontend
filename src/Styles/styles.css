@@ -713,13 +713,17 @@ input:hover, textarea:hover {
     }
 
     #contact-details-card{
-        margin-top: 1em
+        margin-top: 2em
     }
 
-    #contact-form-card {
-        margin-top: 2em;
+    #contact-form-card, 
+    #faq-card{ 
+        margin-top: 0em; 
     }
 
+    .headshot {
+    margin-top: 1em;
+    }
 }
 
 @media (max-width:1000px) {
@@ -744,10 +748,6 @@ input:hover, textarea:hover {
     .logobg {
         display: none;
     }
-
-    .headshot{
-        margin-top: 2em
-    }
     .service-card-contents {
         width: 85%;
         margin: auto;
@@ -770,9 +770,7 @@ input:hover, textarea:hover {
     .our-services-heading {
         margin-bottom: 0.2em;
     }
-    #faq-card {
-        margin-top: 1em;
-    }
+   
     #our-services-card {
         margin-top: 2em;
     }
@@ -951,7 +949,7 @@ input:hover, textarea:hover {
 /* ANIMATIONS */
 
 
-/* @keyframes fadeIn {
+@keyframes fadeIn {
     0% {
       opacity: 0;
     }
@@ -992,6 +990,6 @@ input:hover, textarea:hover {
   #faq-card {
     opacity: 0; 
     animation: fadeIn 400ms ease-in 200ms forwards; 
-  } */
+  }
 
 
