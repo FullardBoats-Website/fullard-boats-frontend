@@ -39,8 +39,8 @@ export default function OurServicesCard() {
           </p>
           <b>Can I see some photos of your work?</b>
           <p className="faq-questions">
-          Of course! We regularly post photos of our hard work on the Fullard Boats Facebook page. 
-          Check out our most recent work here!
+            Of course! We regularly post photos of our hard work on the Fullard Boats Facebook page. 
+            Check out our most recent work <a id='facebook-link' href="https://www.facebook.com/FullardBoats" target="_blank" rel="noopener noreferrer"><u>here!</u></a>
           </p>
           <b>Have some work you'd like to discuss with us?</b>
           <p className="faq-questions">
