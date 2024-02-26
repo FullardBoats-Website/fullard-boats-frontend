@@ -691,12 +691,16 @@ input:hover, textarea:hover {
 }
 
 @media (max-width: 630px) {
+    .tag-container {
+        margin-left: 0.6em;
+    }
+
     .home-serivce-locations-container { 
         display: none;
     }
 
     .homepg-contact-details{
-        margin-left: 4em;
+        margin-left: 2em;
     }
 
     .logobg {
@@ -720,6 +724,7 @@ input:hover, textarea:hover {
     .our-services-blurb {
         margin-top: 0em;
         margin-bottom: 2em;
+        
     }
 
     .our-services-heading {
