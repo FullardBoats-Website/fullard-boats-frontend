@@ -32,7 +32,7 @@ function App() {
           <FontAwesomeIcon className='nav-mobile-icon' icon={faBars} onClick={toggleMenu} />
           {menuOpen && <FullMenu onClose={toggleMenu} animationDirection={animationDirection} />}
         </nav>
-
+        
         <Routes>
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/" element={<HomePage />} />

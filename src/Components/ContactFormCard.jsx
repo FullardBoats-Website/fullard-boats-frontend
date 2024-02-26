@@ -18,7 +18,6 @@ export default function ContactFormCard() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
     try {
       const response = await fetch(process.env.REACT_APP_API_ENDPOINT, {
         method: 'POST',
@@ -32,7 +31,7 @@ export default function ContactFormCard() {
         // Email sent successfully
         setSuccessMessage('Thank you for contacting us!');
         setErrorMessage(''); // Clear any previous error messages
-  
+
         // Clear the form data on successful submission
         setFormData({
           name: '',
@@ -63,8 +62,6 @@ export default function ContactFormCard() {
             <h2 className="contact-us-heading">CONTACT US</h2>
           )}
           <form onSubmit={handleSubmit}>
-          
-
             <label htmlFor="email">Email*</label>
             <input
               type="email"
@@ -92,10 +89,9 @@ export default function ContactFormCard() {
               onChange={handleChange}
               required
             ></textarea>
-
             <input className="submit-btn" type="submit" value="Submit" />
           </form>
-        </div>
+      </div>
     </div>
   );
 }

@@ -9,12 +9,10 @@ const ContactPage = () => {
         <h2 className='line1'>Reach Out.</h2>
         <h2 className='line2'>We're Here To Help.</h2>
       </div>
-      
       <div className='contact-container'>
-      <ContactDetailsCard />
-      <ContactFormCard />
-      
-    </div>
+        <ContactDetailsCard />
+        <ContactFormCard />
+      </div>
     </div>
   );
 };

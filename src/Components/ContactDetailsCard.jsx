@@ -13,10 +13,8 @@ export default function ContactDetailsCard() {
           <h2 > <FontAwesomeIcon className='icons' icon={faPhone} /> 0434 819 553</h2>
           <h2 > <FontAwesomeIcon className='icons' icon={faEnvelope} /> fullardboats@gmail.com</h2>
           <a id='facebook-link' href="https://www.facebook.com/FullardBoats" target="_blank" rel="noopener noreferrer">
-          <h2>
-            <FontAwesomeIcon className='icons' icon={faFacebook} /> facebook.com/FullardBoats
-          </h2>
-        </a>
+          <h2><FontAwesomeIcon className='icons' icon={faFacebook} /> facebook.com/FullardBoats</h2>
+          </a>
           <br></br>
           <div className='hours-container'>
             <h3 className='hours-heading'>Opening Hours</h3>
@@ -24,7 +22,6 @@ export default function ContactDetailsCard() {
             <p className='days-text'>Monday-Friday</p>
             <em className='public-hols-text'>*Except public holidays</em>
           </div>
-
           <div className='serivce-locations-container'>
             <h3 className='serivce-locations-heading'>Service Locations</h3>
             <ul className='serivce-locations-text'>
