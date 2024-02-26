@@ -934,9 +934,18 @@ input:hover, textarea:hover {
       transform: translateX(0);
     }
 }
-  
+
 .see-our-services {
     opacity: 0; 
     animation: slideInFromLeft 300ms ease-in 1500ms forwards; /* Adjust duration and delay as needed */
 }
 
+/* Mobile nav menu animation */
+@keyframes slideIn {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
