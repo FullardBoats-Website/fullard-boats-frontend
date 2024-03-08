@@ -603,6 +603,28 @@ input:hover, textarea:hover {
         margin-bottom: 0.5em;
     }
 }
+
+@media (max-height: 1099px) or (max-width: 1699px)
+    {   
+        .logobg {
+            width: 350px;
+            display: flex;
+            float: right;
+            margin-top: 8em;
+            margin-right: 5em;
+        }
+}
+
+@media (max-height: 800) or (max-width: 1699px)
+    {   
+        .tag-container{
+            font-size: 4em;
+        }
+
+        .home-serivce-locations-container {
+            font-size: 1.2em;
+        }
+}
   
 @media (max-width: 1099px) {
     /* Show the navigation menu if the viewport width is greater than or equal to 1099px */
@@ -621,8 +643,10 @@ input:hover, textarea:hover {
     }
 
     .logobg {
+        display: inline;
         width: 15em;
         margin: 18em 0em 0em 3em;
+        float: none;
     }
 
     .homepg-contact-details {
@@ -704,7 +728,8 @@ input:hover, textarea:hover {
     }
 
     .logobg {
-        display: none;
+        /* display: none; */
+        margin-left: 1.8em;
     }
 
     .service-card-contents {
@@ -831,6 +856,16 @@ input:hover, textarea:hover {
     }
 }
 
+@media (max-height: 480px) {
+    .logobg {
+        margin-top: 13em;
+    }
+    .tag-container {
+        margin-top: 0.2em;
+    }
+}
+
+
 @media (max-width: 430px) {
     .card-contents {
         width: 20em;
@@ -853,6 +888,11 @@ input:hover, textarea:hover {
     .our-deatils-body h2 {
         font-size: 1em;
     }
+    .logobg {
+        width: 200px;
+        margin-top: 15em;
+        margin-left: 1.2em;
+    }
 }
 
 @media (max-width: 340px) {
@@ -870,13 +910,20 @@ input:hover, textarea:hover {
     .tag-container {
         font-size: 1.5em
     }
-}
-
-@media (max-height: 480px) {
     .logobg {
-        display: none;
+        width: 150px;
+        margin-top: 11em;
+        margin-left: 1em;
     }
 }
+
+
+
+
+
+
+
+
 
 /* ANIMATIONS */
 
