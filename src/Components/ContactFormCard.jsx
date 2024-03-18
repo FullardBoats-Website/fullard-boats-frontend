@@ -62,6 +62,15 @@ export default function ContactFormCard() {
             <h2 className="contact-us-heading">CONTACT US</h2>
           )}
           <form onSubmit={handleSubmit}>
+
+          <label>Name*</label>
+            <input
+              placeholder="Your full name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
             <label htmlFor="email">Email*</label>
             <input
               type="email"
