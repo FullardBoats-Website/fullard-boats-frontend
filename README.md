@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Fullard Boats website Readme
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Website URL:
 
-## Available Scripts
+https://www.fullardboats.com.au/
 
-In the project directory, you can run:
+## Client's Background:
+Established in 2018, Fullard Boats is a small, family-run business based around the Gippsland Lakes in Victoria. They offer a comprehensive service for all wooden and fibreglass boats, specialising in both timber and fibreglass repairs, restorations and new builds.
 
-### `npm start`
+## Purpose:
+The purpose of this product is to showcase who they are as a business, the services that Fullard Boats has to offer and a way of contacting them.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Functionality / Features:
+This website has four main pages. The landing page introduces the user with the Fullard Boats tagline, their logo and information about their location as well as contact information which is easy to read. This offers the user immediate information about the business before needing to click onto other pages. The 'About Us' page offers a brief history of the business and a card for all three people who work for the business which details who they are and what specialty they offer. The 'Our Services' page details exactly how vast their services are and contains an FAQ section. The 'Contact Us' page of the website contains a contact form. Upon filling out the form and clicking submit, Fullard Boats will receive an email containing the information for each field of the form. The form has 4x fields: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Full name
+- Email
+- Phone(optional)
+- The message the user wishes to send.
 
-### `npm test`
+## Target Audience:
+The target audience for this website are existing or potential clients. This website provides all of the information they require to get a great understanding of what the business offers and multiple methods of contact.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## User Stories:
 
-### `npm run build`
+1. As a visitor to the Fullard Boats website, I want to quickly understand what Fullard Boats does and how to contact them, so I can decide if their services are relevant to my needs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. As a potential customer, I want to learn about the history and background of Fullard Boats, so I can feel confident in their experience and expertise.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. As a boat owner needing specific services, I want to see a detailed list of the services Fullard Boats offers, so I can determine if they provide the repairs or restorations I need.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. As a curious visitor, I want to read the FAQ section on the 'Our Services' page, so I can quickly find answers to common questions without having to contact the business directly.
 
-### `npm run eject`
+5. As a mobile user, I want the website to be optimised for mobile devices, so I can easily navigate and access information from my smartphone or tablet.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Wireframes for mobile and desktop:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Version 1:
+This wireframe displays the website to be a single page. It starts with an image of the client and introductory text. Below this section, there are three separate sections for About, Publications and Other Publications. The last section is dedicated to the contact form.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![alt text](<src/Assets/Wireframes V1.png>)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Version 2:
+This wireframe shows the removal of the “Other Publications” section and is replaced with another section called “Articles and Media”. After a meeting with the client, Dr Thomas advised that he would like a section of the website with each article that he has written, as well as a Youtube video where he is presenting his book to a Zoom call.
 
-## Learn More
+![alt text](<src/Assets/Wireframes V2.png>)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Designs:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Version 1:
+As the client had no initial preferences on how the website looked, a single page design was mocked up to spark ideas. This design features a clear image of a boat on the water with two separate sections dedicated to displaying who the business is, and a contact form.
 
-### Code Splitting
+![alt text](src/assets/fullard_boats_design_v1.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Version 2:
+The client provided feedback and wished to add some information about some of the core services they offer. This version shows a single page with the existing information as well as an additional section with some core services.
 
-### Analyzing the Bundle Size
+![alt text](src/assets/fullard_boats_design_v2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Version 3:
+The client provided more feedback and requested that the website is broken up into several different pages so they can expand on each element. This design allows for multiple pages: The landing page, About Us page, Our Services page and Contact Us page. The landing page is designed to be easy to view with the information about who the business is and their contact information. The other pages have been populated with real content as the client was able to provide it at this stage. We can see the website taking shape clearly outlining their services and who each employee is. This also saw the introduction of a brighter header as requested by the client. 
 
-### Making a Progressive Web App
+![alt text](src/assets/fullard_boats_design_v3.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Version 4:
+This version is the final draft which tweaked some minor things such as the way the contact page looks and a darker header as requested by the client. The image used in the landing page is now an image from the local that the business operates
 
-### Advanced Configuration
+![alt text](src/assets/fullard_boats_design_v4.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 
 
-### Deployment
+## Tech Stack & Application Architecture Diagram:
+The website will utilise a modern tech stack to deliver a seamless and responsive user experience:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Front-end: React.js
+<br>
+Back-end: Node.js, Express.js
+<br>
+Hosting: Netlify (frontend), render.com (backend), Ventraip (domain name)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](<src/assets/Architecture diagram.png>)
