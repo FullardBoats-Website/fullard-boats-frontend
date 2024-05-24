@@ -33,18 +33,6 @@ The target audience for this website are existing or potential clients. This web
 
 5. As a mobile user, I want the website to be optimised for mobile devices, so I can easily navigate and access information from my smartphone or tablet.
 
-## Wireframes for mobile and desktop:
-
-### Version 1:
-This wireframe displays the website to be a single page. It starts with an image of the client and introductory text. Below this section, there are three separate sections for About, Publications and Other Publications. The last section is dedicated to the contact form.
-
-![alt text](<src/Assets/Wireframes V1.png>)
-
-### Version 2:
-This wireframe shows the removal of the “Other Publications” section and is replaced with another section called “Articles and Media”. After a meeting with the client, Dr Thomas advised that he would like a section of the website with each article that he has written, as well as a Youtube video where he is presenting his book to a Zoom call.
-
-![alt text](<src/Assets/Wireframes V2.png>)
-
 ## Designs:
 
 ### Version 1:
