@@ -53,6 +53,13 @@ nav a {
     font-size: 1.3em;
 }
 
+.logo-mobile {
+    position: absolute;
+    display: flex;
+    height: 1.5em;
+    margin: 3.2em 0em -6em 2em;
+}
+
 /* Mobile nav overlay */
 
 .full-menu-overlay {
@@ -104,9 +111,9 @@ nav a {
     margin: 3.2em 0em -6em 5.5em;
 }
 
-.logo-mobile {
+/* .logo-mobile {
     display: none;
-}
+} */
 
 /* HOME PAGE */
 
@@ -668,16 +675,9 @@ textarea:hover {
         font-size: 1em;
     }
 
-    .logo {
+    /* .logo {
         display: none;
-    }
-
-    .logo-mobile {
-        position: absolute;
-        display: flex;
-        height: 1.5em;
-        margin: 3.2em 0em -6em 2em;
-    }
+    } */
 
     .faq-card-contents {
         width: 85%;

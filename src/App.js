@@ -32,7 +32,7 @@ function App() {
           <FontAwesomeIcon className='nav-mobile-icon' icon={faBars} onClick={toggleMenu} />
           {menuOpen && <FullMenu onClose={toggleMenu} animationDirection={animationDirection} />}
         </nav>
-        
+
         <Routes>
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/" element={<HomePage />} />
@@ -61,10 +61,11 @@ function Logo() {
 
   if (location.pathname !== '/') {
     return (
-      <Link to="/">
-        <img className='logo-mobile' src={logoMobile} alt="Fullard Boat Co Logo" />
-        <img className='logo' src={logo} alt="Fullard Boat Co Logo" />
-      </Link>
+      <>
+        <Link to="/">
+          <img className='logo-mobile' src={logoMobile} alt="Fullard Boat Co Logo" />
+        </Link>
+      </>
     );
   }
   return null;
