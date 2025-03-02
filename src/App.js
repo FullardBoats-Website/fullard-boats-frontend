@@ -5,7 +5,6 @@ import HomePage from './Pages/HomePage';
 import AboutUs from './Pages/AboutUsPage';
 import OurSerivces from './Pages/OurServicesPage';
 import './Styles/styles.css';
-import logo from './assets/logo.svg';
 import logoMobile from './assets/logo-mobile.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
