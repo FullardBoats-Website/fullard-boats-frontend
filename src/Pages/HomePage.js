@@ -1,5 +1,6 @@
 import React from 'react';
-import logoBg from '../assets/logobg.svg';
+// import logoBgV2 from '../assets/logobg.svg';
+import logoBgV2 from '../assets/logobgV2.png';
 import homeBg from '../assets/homebg.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope, } from '@fortawesome/free-solid-svg-icons'
@@ -22,7 +23,7 @@ const HomePage = () => {
         <p className='tagline' id='boat-building'>Boat Building.</p>
         <div className='see-our-services'><a id='' href="/our-services" ><p>Check out our services! {'>'}</p></a></div>
       </div>
-      <img className='logobg' src={logoBg} alt="Logo Background" />
+      <img className='logobgV2' src={logoBgV2} alt="Logo Background" />
       <div className='homepg-contact-details'>
         <h2 > <FontAwesomeIcon className='icons' icon={faPhone} /> 0434 819 553</h2>
         <h2 > <FontAwesomeIcon className='icons' icon={faEnvelope} /> office@fullardboatco.com</h2>

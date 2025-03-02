@@ -110,9 +110,9 @@ nav a {
 
 /* HOME PAGE */
 
-.logobg {
+.logobgV2 {
     width: 550px;
-    margin: 35em 0em -2em 6.1em;
+    margin: 35em 0em -2em 3em;
 }
 
 .tag-container {
@@ -617,12 +617,12 @@ textarea:hover {
 }
 
 @media (max-height: 1099px) or (max-width: 1699px) {
-    .logobg {
+    .logobgV2 {
         width: 350px;
         display: flex;
         float: right;
         margin-top: 8em;
-        margin-right: 5em;
+        margin-right: 3.5em;
     }
 }
 
@@ -653,10 +653,10 @@ textarea:hover {
         margin-top: 0em;
     }
 
-    .logobg {
+    .logobgV2 {
         display: inline;
         width: 15em;
-        margin: 18em 0em 0em 3em;
+        margin: 18em 0em 0em 2em;
         float: none;
     }
 
@@ -738,9 +738,9 @@ textarea:hover {
         margin-left: 2em;
     }
 
-    .logobg {
+    .logobgV2 {
         /* display: none; */
-        margin-left: 1.8em;
+        margin-left: 0.5em;
     }
 
     .service-card-contents {
@@ -867,11 +867,13 @@ textarea:hover {
     }
 }
 
-@media (max-height: 480px) {
-    .logobg {
-        margin-top: 13em;
+@media (max-height: 570px) {
+    .logobgV2 {
+        display: none;
     }
+}
 
+@media (max-height: 480px) {
     .tag-container {
         margin-top: 0.2em;
     }
@@ -901,7 +903,7 @@ textarea:hover {
         font-size: 1em;
     }
 
-    .logobg {
+    .logobgV2 {
         width: 200px;
         margin-top: 15em;
         margin-left: 1.2em;
@@ -924,7 +926,7 @@ textarea:hover {
         font-size: 1.5em
     }
 
-    .logobg {
+    .logobgV2 {
         width: 150px;
         margin-top: 11em;
         margin-left: 1em;
