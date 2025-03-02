@@ -10,8 +10,7 @@ export default function KellyCard() {
         <h2 className="kelly-heading">Kelly Fullard</h2>
         <div className='about-us-body'>
           <p className='about-us-blurb-card'>
-            Kelly plays the 'behind the scenes' role and handles the administration and accounts for Fullard Boats. 
-            She is a full time mum to their two little boys and works part time as a teacher in the local area.
+            Kelly is the Operations Manager. She plays the 'behind the scenes' role and handles everything from administration to accounts and much more.
           </p>
         </div>
       </div>

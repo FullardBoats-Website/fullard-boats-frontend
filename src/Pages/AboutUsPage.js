@@ -12,8 +12,8 @@ const AboutUs = () => {
       </div>
       <div className='about-us-blurb-container'>
         <p className='about-us-blurb'>
-          Established in 2018, Fullard Boats is a small, family-run  business based around the Gippsland Lakes in Victoria. 
-          They offer a comprehensive service for all wooden and fibreglass boats, specialising in both timber and fibreglass repairs, restorations and new builds.
+          Established in 2018, Fullard Boat Co is a family-run  business based around the Gippsland Lakes in Victoria. 
+          We offer a comprehensive service for all wooden and fibreglass boats, specialising in both timber and fibreglass repairs, restorations and new builds.
         </p>
       </div>
       <h1 className='our-team-heading'>Our Team</h1>

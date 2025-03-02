@@ -62,8 +62,8 @@ function Logo() {
   if (location.pathname !== '/') {
     return (
       <Link to="/">
-        <img className='logo-mobile' src={logoMobile} alt="Fullard Boats Logo" />
-        <img className='logo' src={logo} alt="Fullard Boats Logo" />
+        <img className='logo-mobile' src={logoMobile} alt="Fullard Boat Co Logo" />
+        <img className='logo' src={logo} alt="Fullard Boat Co Logo" />
       </Link>
     );
   }

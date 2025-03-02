@@ -10,7 +10,7 @@ export default function OurServicesCard() {
           <h2 className="our-services-heading">OUR SERVICES</h2>
             <div className='our-services-body'>
               <p className='our-services-blurb'>
-                At Fullard Boats we offer the following range of services. 
+                At Fullard Boat Co we offer a wide range of services. 
                 We have built a solid reputation and pride ourselves on our attention to detail and high-quality finishes at competitive prices. 
                 The services we offer include:
               </p>

@@ -25,17 +25,17 @@ const HomePage = () => {
       <img className='logobg' src={logoBg} alt="Logo Background" />
       <div className='homepg-contact-details'>
         <h2 > <FontAwesomeIcon className='icons' icon={faPhone} /> 0434 819 553</h2>
-        <h2 > <FontAwesomeIcon className='icons' icon={faEnvelope} /> fullardboats@gmail.com</h2>
+        <h2 > <FontAwesomeIcon className='icons' icon={faEnvelope} /> office@fullardboatco.com</h2>
         <a id='facebook-link' href="https://www.facebook.com/FullardBoats" target="_blank" rel="noopener noreferrer">
           <h2>
-            <FontAwesomeIcon className='icons' icon={faFacebook} /> facebook.com/FullardBoats
+            <FontAwesomeIcon className='icons' icon={faFacebook} /> facebook.com/FullardBoatCo
           </h2>
         </a>
       </div>
       <div className='home-serivce-locations-container'>
         <h3 className='hours-heading'>Opening Hours</h3>
-        <p className='hours-text'>8:30am - 4pm</p>
-        <p className='days-text'>Monday-Friday</p>
+        <p className='hours-text'>8:00am - 4:30pm</p>
+        <p className='days-text'>Monday - Friday</p>
         <em className='public-hols-text'>*Except public holidays</em>
         <h3 className='home-serivce-locations-heading'>Service Locations</h3>
         <ul className='serivce-locations-text'>

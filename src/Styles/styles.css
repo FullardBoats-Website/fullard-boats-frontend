@@ -4,7 +4,7 @@
     --text-color: #f2f2f2;
     --background-color: #191a1c;
     --card-color: #0b0c0d;
-    --place-color: #2c2d2e; 
+    --place-color: #2c2d2e;
 }
 
 body {
@@ -20,6 +20,11 @@ header {
     margin: 0;
 }
 
+a:visited {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
 /* NAVIGATION MENU */
 
 nav {
@@ -28,17 +33,17 @@ nav {
     font-size: 1.5em;
     font-weight: 500;
     margin-top: 2em;
-    position: absolute; 
-    right: 0; 
-    top: 0; 
+    position: absolute;
+    right: 0;
+    top: 0;
     z-index: 10;
 }
 
 nav a {
-    text-decoration: none; 
+    text-decoration: none;
     color: var(--text-color);
     margin-right: 2em;
-    margin-top: 2em; 
+    margin-top: 2em;
 }
 
 /* Hide the navigation menu by default */
@@ -55,16 +60,16 @@ nav a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 0; 
-    background-color: #1d1e21; 
-    z-index: 100; 
-    overflow: hidden; 
+    height: 0;
+    background-color: #1d1e21;
+    z-index: 100;
+    overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: flex-start; 
-    transition: height 0.3s ease; 
+    align-items: flex-start;
+    transition: height 0.3s ease;
 }
-  
+
 .full-menu-content {
     display: flex;
     background-color: #1d1e21;
@@ -76,12 +81,14 @@ nav a {
     flex-direction: column;
     margin-top: 5em;
 }
-  
+
 .full-menu-overlay.open {
-    height: 100%; /* Expand height when menu is open */
-    animation: slideIn 0.3s forwards; /* Apply slide-in animation */
+    height: 100%;
+    /* Expand height when menu is open */
+    animation: slideIn 0.3s forwards;
+    /* Apply slide-in animation */
 }
-  
+
 .full-menu-content a {
     display: block;
     text-align: center;
@@ -127,8 +134,8 @@ nav a {
     margin-left: 5.2em;
 }
 
-.home-serivce-locations-container { 
-    margin: 5.2em ;
+.home-serivce-locations-container {
+    margin: 5.2em;
     font-size: 1.5em;
     position: absolute;
     bottom: 4em;
@@ -140,7 +147,8 @@ nav a {
     margin-left: 0.9em
 }
 
-#facebook-link, .icons {
+#facebook-link,
+.icons {
     text-decoration: none;
     color: var(--text-color);
 }
@@ -164,12 +172,12 @@ nav a {
     display: flex;
     width: 60em;
     margin: auto;
-    
+
 }
 
- .about-us-blurb {
+.about-us-blurb {
     font-size: 1.3em;
-    margin-top: 1em; 
+    margin-top: 1em;
 }
 
 .our-team-heading {
@@ -182,7 +190,7 @@ nav a {
 
 .about-us-body {
     width: 90%;
-    padding: 0.5em 0em 0em 1.8em;  
+    padding: 0.5em 0em 0em 1.8em;
     position: relative;
     z-index: 1;
     margin-right: 0em;
@@ -211,7 +219,7 @@ nav a {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     width: auto;
-    height: auto; 
+    height: auto;
 }
 
 .about-us-blurb-card {
@@ -220,12 +228,12 @@ nav a {
 }
 
 
-.will-heading, 
-.kelly-heading, 
+.will-heading,
+.kelly-heading,
 .aiden-heading {
     display: flex;
     position: relative;
-    z-index: 1; 
+    z-index: 1;
     margin: 0em 0em 0.3em 0.5em;
 }
 
@@ -247,17 +255,17 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
-    padding-top: 10em; 
+    flex-direction: column;
+    padding-top: 10em;
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
-    line-height: 2em; 
-    max-height: 11em; 
+    line-height: 2em;
+    max-height: 11em;
 }
-  
+
 .page-heading h2 {
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
 .line2 {
@@ -266,11 +274,11 @@ nav a {
 
 /* CONTACT US CARD */
 
-.contact-us-heading, 
-.success-message, 
+.contact-us-heading,
+.success-message,
 .error-message {
-    margin-left: 1.1em; 
-    
+    margin-left: 1.1em;
+
 }
 
 .contact-us-heading {
@@ -283,8 +291,8 @@ nav a {
 
 .card-container {
     display: flex;
-    flex-direction: column; 
-    margin: 5em 1em 1em 1em; 
+    flex-direction: column;
+    margin: 5em 1em 1em 1em;
 }
 
 .card-contents {
@@ -297,11 +305,11 @@ nav a {
 
 form {
     width: 100%;
-    padding: 1em;   
+    padding: 1em;
 }
 
 label {
-    padding: 0.66em; 
+    padding: 0.66em;
 }
 
 input {
@@ -311,13 +319,13 @@ input {
     padding: 0.4em 0.4em 0.4em 0em;
     margin: 1em 1em 1em 0.9em;
     width: 85.55%;
-    background-color:  var(--card-color);
+    background-color: var(--card-color);
     color: var(--text-color);
     border-bottom: solid var(--background-color);
     border-bottom-width: 0.2em;
 }
 
-  
+
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px var(--card-color) inset;
     -webkit-text-fill-color: var(--text-color);
@@ -332,8 +340,8 @@ textarea {
     margin: 1em 1em 1em 0.9em;
     resize: vertical;
     width: 85.55% !important;
-    background-color:  var(--card-color);
-    color: var(--text-color); 
+    background-color: var(--card-color);
+    color: var(--text-color);
     border-bottom: solid var(--background-color);
     border-radius: 0px;
     padding: 0.4em 0.4em 0.4em 0em;
@@ -342,10 +350,11 @@ textarea {
 
 textarea::placeholder,
 input::placeholder {
-    color: var(--place-color);  
+    color: var(--place-color);
 }
 
-input:hover, textarea:hover {
+input:hover,
+textarea:hover {
     border-bottom: solid var(--place-color);
     border-bottom-width: 0.2em;
 }
@@ -375,18 +384,18 @@ input:hover, textarea:hover {
 
 .our-details-heading {
     display: flex;
-    margin-left: 1.1em; 
+    margin-left: 1.1em;
     color: #EF86C9;
 }
 
 .our-deatils-body {
     width: 100%;
-    padding: 1em;   
+    padding: 1em;
 }
 
 .icons {
     margin-right: 1em;
-    margin-left: 0.66em;   
+    margin-left: 0.66em;
 }
 
 .contact-container {
@@ -403,23 +412,23 @@ input:hover, textarea:hover {
     display: inline-block;
 }
 
-.hours-heading{
+.hours-heading {
     margin-left: 0.8em;
     margin-bottom: -1em;
 }
 
-.hours-text, 
-.days-text, 
+.hours-text,
+.days-text,
 .public-hols-text {
-    padding: 1em;  
+    padding: 1em;
 }
 
 .hours-text {
-    margin-bottom: -3em; 
+    margin-bottom: -3em;
 }
 
 .days-text {
-    margin-bottom: -1em;  
+    margin-bottom: -1em;
 }
 
 .public-hols-text {
@@ -428,11 +437,11 @@ input:hover, textarea:hover {
 
 .serivce-locations-container {
     float: right;
-    margin-right: 1em ;
+    margin-right: 1em;
 }
 
 .serivce-locations-text {
-    margin-right: 1.65em 
+    margin-right: 1.65em
 }
 
 .serivce-locations-heading {
@@ -443,7 +452,7 @@ input:hover, textarea:hover {
 
 .our-services-heading {
     display: flex;
-    margin-left: 1.1em; 
+    margin-left: 1.1em;
     color: #90CAF3;
     position: relative;
     z-index: 1
@@ -465,27 +474,27 @@ input:hover, textarea:hover {
     padding: 1em;
 }
 
-  .our-services-body {
+.our-services-body {
     box-sizing: border-box;
     width: 100%;
-    padding: 0.5em 1em 1.8em 1.8em;  
+    padding: 0.5em 1em 1.8em 1.8em;
     position: relative;
-    z-index: 1 
+    z-index: 1
 }
 
 .faq-blurb {
     margin-top: 0em;
     margin-bottom: 4em;
     position: relative;
-    z-index: 1 
+    z-index: 1
 }
 
 .faq-body {
     box-sizing: border-box;
     width: 100%;
-    padding: 0.5em 1em 1.8em 1.8em;   
+    padding: 0.5em 1em 1.8em 1.8em;
     position: relative;
-    z-index: 1 
+    z-index: 1
 }
 
 .faq-card-contents {
@@ -497,14 +506,14 @@ input:hover, textarea:hover {
 
 .faq-heading {
     display: flex;
-    margin-left: 1.1em; 
+    margin-left: 1.1em;
     color: #77E7C0;
     position: relative;
     z-index: 1;
 }
 
 .faq-questions {
-    margin-top: 0em;   
+    margin-top: 0em;
 }
 
 .brushbg {
@@ -523,7 +532,7 @@ input:hover, textarea:hover {
     width: 990px;
 }
 
-  /* MEDIA QUERY */
+/* MEDIA QUERY */
 
 @media (max-width: 1700px) {
     .homepg-contact-details {
@@ -543,11 +552,12 @@ input:hover, textarea:hover {
 }
 
 @media (max-width: 1400px) {
-    .about-us-contents, 
+
+    .about-us-contents,
     .about-us-contents-aiden {
         width: 20em;
         height: 14em;
-    }  
+    }
 }
 
 @media (max-width: 1150px) {
@@ -555,6 +565,7 @@ input:hover, textarea:hover {
         flex-direction: column;
         margin-top: -4em;
     }
+
     .headshot {
         display: flex;
         align-items: center;
@@ -567,7 +578,7 @@ input:hover, textarea:hover {
     .about-us-contents-aiden {
         box-sizing: border-box;
         width: 90%;
-        margin:auto;
+        margin: auto;
         height: auto;
     }
 
@@ -598,35 +609,35 @@ input:hover, textarea:hover {
     .line1 {
         margin-top: -1em;
     }
+
     .about-us-blurb-card {
         padding-right: 1em;
         margin-bottom: 0.5em;
     }
 }
 
-@media (max-height: 1099px) or (max-width: 1699px)
-    {   
-        .logobg {
-            width: 350px;
-            display: flex;
-            float: right;
-            margin-top: 8em;
-            margin-right: 5em;
-        }
+@media (max-height: 1099px) or (max-width: 1699px) {
+    .logobg {
+        width: 350px;
+        display: flex;
+        float: right;
+        margin-top: 8em;
+        margin-right: 5em;
+    }
 }
 
-@media (max-height: 800) or (max-width: 1699px)
-    {   
-        .tag-container{
-            font-size: 4em;
-        }
+@media (max-height: 800) or (max-width: 1699px) {
+    .tag-container {
+        font-size: 4em;
+    }
 
-        .home-serivce-locations-container {
-            font-size: 1.2em;
-        }
+    .home-serivce-locations-container {
+        font-size: 1.2em;
+    }
 }
-  
+
 @media (max-width: 1099px) {
+
     /* Show the navigation menu if the viewport width is greater than or equal to 1099px */
     .nav-mobile-icon {
         display: flex;
@@ -637,7 +648,7 @@ input:hover, textarea:hover {
         display: none;
     }
 
-    .tag-container{
+    .tag-container {
         font-size: 3em;
         margin-top: 0em;
     }
@@ -663,7 +674,7 @@ input:hover, textarea:hover {
 
     .logo-mobile {
         position: absolute;
-        display:flex;
+        display: flex;
         height: 1.5em;
         margin: 3.2em 0em -6em 2em;
     }
@@ -681,7 +692,7 @@ input:hover, textarea:hover {
         margin-top: -1em;
         margin-bottom: 1em;
         position: relative;
-        z-index: 1 
+        z-index: 1
     }
 
     .contact-container {
@@ -689,16 +700,16 @@ input:hover, textarea:hover {
         align-items: center;
     }
 
-    #contact-details-card{
+    #contact-details-card {
         margin-top: 2em
     }
 
-    #contact-form-card{ 
-        margin-top: 0em; 
+    #contact-form-card {
+        margin-top: 0em;
     }
 
     .headshot {
-    margin-top: 1em;
+        margin-top: 1em;
     }
 
     .see-our-services {
@@ -710,7 +721,7 @@ input:hover, textarea:hover {
 @media (max-width:1000px) {
     .about-us-blurb {
         font-size: 1.2em;
-        line-height: 1.2em; 
+        line-height: 1.2em;
     }
 }
 
@@ -719,11 +730,11 @@ input:hover, textarea:hover {
         margin-left: 0.6em;
     }
 
-    .home-serivce-locations-container { 
+    .home-serivce-locations-container {
         display: none;
     }
 
-    .homepg-contact-details{
+    .homepg-contact-details {
         margin-left: 2em;
     }
 
@@ -749,19 +760,19 @@ input:hover, textarea:hover {
     .our-services-blurb {
         margin-top: 0em;
         margin-bottom: 2em;
-        
+
     }
 
     .our-services-heading {
         margin-bottom: 0.2em;
     }
-   
+
     #our-services-card {
         margin-top: 2em;
     }
 
-    #faq-card{ 
-        margin-top: 0em; 
+    #faq-card {
+        margin-top: 0em;
     }
 }
 
@@ -775,7 +786,7 @@ input:hover, textarea:hover {
         margin-bottom: 0.5em;
     }
 
-    .our-services-body{
+    .our-services-body {
         padding-bottom: 0.5em
     }
 
@@ -783,7 +794,7 @@ input:hover, textarea:hover {
         margin-top: 0.4em;
     }
 
-    .faq-body{
+    .faq-body {
         padding-bottom: 0.5em
     }
 
@@ -792,8 +803,8 @@ input:hover, textarea:hover {
         margin: auto;
     }
 
-    .our-deatils-body h2, 
-    .hours-heading, 
+    .our-deatils-body h2,
+    .hours-heading,
     .serivce-locations-heading {
         font-size: 1.1em
     }
@@ -802,15 +813,15 @@ input:hover, textarea:hover {
         float: none;
     }
 
-    .serivce-locations-heading, 
+    .serivce-locations-heading,
     .hours-heading {
         margin-left: 0.7em;
     }
 
-    .hours-text, 
-    .days-text, 
+    .hours-text,
+    .days-text,
     .public-hols-text {
-        padding-left: 0.8em;  
+        padding-left: 0.8em;
     }
 
     .hours-text {
@@ -818,23 +829,23 @@ input:hover, textarea:hover {
     }
 
     .serivce-locations-text {
-        padding-left: 1.8em; 
+        padding-left: 1.8em;
         margin-top: -0.8em;
     }
 
-    .our-deatils-body, 
+    .our-deatils-body,
     form {
         padding-left: 0em;
         padding-top: 0em;
     }
-    
-    .contact-us-heading, 
+
+    .contact-us-heading,
     .our-details-heading {
         margin-left: 0.4em;
         margin-top: 0.5em;
     }
 
-    .hours-heading{
+    .hours-heading {
         margin-top: -0.5em;
     }
 }
@@ -847,7 +858,7 @@ input:hover, textarea:hover {
 
     .our-services-body,
     .faq-body {
-        padding-left: 1em;  
+        padding-left: 1em;
     }
 
     .our-services-heading,
@@ -860,6 +871,7 @@ input:hover, textarea:hover {
     .logobg {
         margin-top: 13em;
     }
+
     .tag-container {
         margin-top: 0.2em;
     }
@@ -869,7 +881,7 @@ input:hover, textarea:hover {
 @media (max-width: 430px) {
     .card-contents {
         width: 20em;
-        margin: auto;  
+        margin: auto;
     }
 }
 
@@ -880,14 +892,15 @@ input:hover, textarea:hover {
         margin-left: 0.6em;
     }
 
-    .homepg-contact-details{
+    .homepg-contact-details {
         margin-left: 1em;
         margin-bottom: -2.5em;
     }
-    
+
     .our-deatils-body h2 {
         font-size: 1em;
     }
+
     .logobg {
         width: 200px;
         margin-top: 15em;
@@ -898,18 +911,19 @@ input:hover, textarea:hover {
 @media (max-width: 340px) {
     .card-contents {
         width: 100%;
-        margin: auto;  
+        margin: auto;
     }
 }
 
 @media (max-width: 280px) {
-    .homepg-contact-details{
+    .homepg-contact-details {
         font-size: 0.5em;
     }
 
     .tag-container {
         font-size: 1.5em
     }
+
     .logobg {
         width: 150px;
         margin-top: 11em;
@@ -929,70 +943,73 @@ input:hover, textarea:hover {
 
 @keyframes fadeIn {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     100% {
-      opacity: 1;
+        opacity: 1;
     }
 }
 
 #modern {
-    opacity: 0; 
-    animation: fadeIn 200ms ease-in 300ms forwards; 
+    opacity: 0;
+    animation: fadeIn 200ms ease-in 300ms forwards;
 }
 
-#traditional{
-    opacity: 0; 
-    animation: fadeIn 200ms ease-in 600ms forwards; 
+#traditional {
+    opacity: 0;
+    animation: fadeIn 200ms ease-in 600ms forwards;
 }
 
 #boat-building {
-    opacity: 0; 
-    animation: fadeIn 200ms ease-in 900ms forwards; 
+    opacity: 0;
+    animation: fadeIn 200ms ease-in 900ms forwards;
 }
-  
+
 .logobg {
-    opacity: 0; 
-    animation: fadeIn 200ms ease-in 1200ms forwards; 
+    opacity: 0;
+    animation: fadeIn 200ms ease-in 1200ms forwards;
 }
-  
+
 .homepg-contact-details h2,
 .home-serivce-locations-container {
-    opacity: 0; 
-    animation: fadeIn 400ms ease-in 1500ms forwards; 
+    opacity: 0;
+    animation: fadeIn 400ms ease-in 1500ms forwards;
 }
 
 #contact-form-card,
 #our-services-card,
 #contact-details-card,
 #faq-card {
-    opacity: 0; 
-    animation: fadeIn 400ms ease-in 200ms forwards; 
+    opacity: 0;
+    animation: fadeIn 400ms ease-in 200ms forwards;
 }
 
 @keyframes slideInFromLeft {
     0% {
-      opacity: 0;
-      transform: translateX(-100%);
+        opacity: 0;
+        transform: translateX(-100%);
     }
 
     100% {
-      opacity: 1;
-      transform: translateX(0);
+        opacity: 1;
+        transform: translateX(0);
     }
 }
 
 .see-our-services {
-    opacity: 0; 
-    animation: slideInFromLeft 300ms ease-in 1500ms forwards; /* Adjust duration and delay as needed */
+    opacity: 0;
+    animation: slideInFromLeft 300ms ease-in 1500ms forwards;
+    /* Adjust duration and delay as needed */
 }
 
 /* Mobile nav menu animation */
 @keyframes slideIn {
     from {
-      transform: translateY(-100%);
+        transform: translateY(-100%);
     }
+
     to {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-  }
+}
